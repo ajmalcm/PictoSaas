@@ -36,7 +36,7 @@ import { updateCredits } from "@/lib/actions/user.actions";
 import { getCldImageUrl } from "next-cloudinary";
 import { addImage, updateImage } from "@/lib/actions/image.actions";
 import { useRouter } from "next/navigation";
-import InsufficientCreditsModal from "./InsufficientCreditsModal";
+import {InsufficientCreditsModal} from "./InsufficientCreditsModal";
 import { Value } from "@radix-ui/react-select";
 
 export const formSchema = z.object({
